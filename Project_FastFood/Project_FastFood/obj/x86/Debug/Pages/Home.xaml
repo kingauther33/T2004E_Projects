@@ -15,9 +15,9 @@
         </Grid.ColumnDefinitions>
         <RelativePanel Margin="50">
             <TextBlock Text="Only" FontSize="46" FontWeight="SemiBold" Foreground="Orange" FontFamily="Century Gothic"/>
-            <TextBlock x:ConnectionId='2' x:Name="bigMoney" Text="$19" FontSize="150" Margin="50,50,0,0" Foreground="Orange" FontWeight="Bold" FontFamily="Elephant"/>
-            <TextBlock x:ConnectionId='3' x:Name="cheeseBurger"  Text="Cheese Burger" FontSize="60" FontFamily="Century Gothic" FontWeight="Bold" Margin="50,0,0,0" RelativePanel.Below="bigMoney"/>
-            <TextBlock x:ConnectionId='4' x:Name="onionTomato"  Text="With Onions and tomato and ketchup" FontSize="28" FontFamily="Century Gothic" Margin="50,20,0,0" RelativePanel.Below="cheeseBurger"/>
+            <TextBlock x:ConnectionId='2' x:Name="bigMoney" Text="$19" FontSize="150" Margin="50,50,0,0" Foreground="Orange" FontWeight="Bold" FontFamily="Elephant" TextWrapping="Wrap"/>
+            <TextBlock x:ConnectionId='3' x:Name="cheeseBurger"  Text="Cheese Burger" FontSize="60" FontFamily="Century Gothic" FontWeight="Bold" Margin="50,0,0,0" RelativePanel.Below="bigMoney" TextWrapping="Wrap"/>
+            <TextBlock x:ConnectionId='4' x:Name="onionTomato"  Text="With Onions and tomato and ketchup" FontSize="28" FontFamily="Century Gothic" Margin="50,20,0,0" RelativePanel.Below="cheeseBurger" TextWrapping="Wrap"/>
             <TextBlock x:ConnectionId='5' x:Name="loremThing"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales ultrices tempor. Proin sagittis neque ex, vitae ullamcorper quam interdum vitae. Aenean ut leo vulputate, egestas nulla in, faucibus est. Nam suscipit justo id lacus luctus porttitor. Donec auctor libero a enim porta auctor." FontSize="24" FontFamily="Century Gothic" Margin="50,20,0,0" RelativePanel.Below="onionTomato" TextWrapping="Wrap"/>
             <Button Content="Order Now" RelativePanel.Below="loremThing" Margin="50,50,0,0" Width="400" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="DarkGray" Background="Khaki"  BorderThickness="1"/>
         </RelativePanel>

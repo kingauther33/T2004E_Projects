@@ -4,6 +4,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Project_FastFood.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -15,8 +16,11 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <RelativePanel>
+                    <!--ListButton-->
                     <Button Margin="5,0,0,0" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE700;" Background="{x:Null}" FontSize="26" />
-                    <Button x:ConnectionId='3' Margin="10,50,0,0" Background="{x:Null}"                     >
+
+                    <!--Following Title Navigation-->
+                    <!--<Button Margin="10,50,0,0" Background="{x:Null}" Click="HomeNavigate">
                         <StackPanel Orientation="Horizontal">
                             <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE770;" />
                             <TextBlock  Margin="20,0,0,0" Text="Home" FontFamily="Noto Sans" FontSize="16" />
@@ -46,12 +50,6 @@
                             <TextBlock  Margin="20,0,0,0" Text="Take Away" FontFamily="Noto Sans" FontSize="16" />
                         </StackPanel>
                     </Button>
-                    <Button Margin="10,300,0,0" Background="{x:Null}">
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xED56;" />
-                            <TextBlock  Margin="20,0,0,0" Text="Take Away" FontFamily="Noto Sans" FontSize="16" />
-                        </StackPanel>
-                    </Button>
                     <Button Margin="10,350,0,0" Background="{x:Null}">
                         <StackPanel Orientation="Horizontal">
                             <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE8C7;" />
@@ -64,7 +62,24 @@
                             <TextBlock  Margin="20,0,0,0" Text="Customers" FontFamily="Noto Sans" FontSize="16" />
                         </StackPanel>
                     </Button>
+                </RelativePanel>-->
+                    <!--END...-->
+
+                    <ListView x:ConnectionId='3' Margin="0,50,0,0" x:Name="menuList"                         >
+                        <ListView.ItemTemplate>
+                            <DataTemplate                             >
+                                <ListViewItem x:ConnectionId='5'                         >
+                                    <StackPanel Margin="10,20" Orientation="Horizontal">
+                                        <FontIcon x:ConnectionId='6' VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}"                       />
+                                        <TextBlock x:ConnectionId='7' Margin="20,0,0,0"                      FontFamily="Noto Sans" FontSize="16" />
+                                    </StackPanel>
+                                </ListViewItem>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </RelativePanel>
+
+                <!--Settings-->
                 <RelativePanel Grid.Row="1">
                     <Button RelativePanel.AlignBottomWithPanel="True"  FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xF142;" FontSize="20" Background="{x:Null}" />
                 </RelativePanel>
@@ -74,7 +89,7 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
-                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <RelativePanel Background="LemonChiffon" Grid.Row="0">
                     <Image Margin="30,0,0,0"  Source="/Assets/fast_food1.png" Width="75" />
@@ -97,9 +112,11 @@
                         <Image Source="/Assets/facebook.png"  Width="20" />
                     </Button>
                 </RelativePanel>
-                <RelativePanel Grid.Row="1" Margin="0">
-                    <Frame x:ConnectionId='4' x:Name="MainFrame"/>
-                </RelativePanel>
+                <Grid Grid.Row="1" Margin="0">
+                    <ScrollViewer>
+                        <Frame x:ConnectionId='8' HorizontalAlignment="Stretch" x:Name="MainFrame"/>
+                    </ScrollViewer>
+                </Grid>
             </Grid>
         </SplitView.Content>
     </SplitView>
