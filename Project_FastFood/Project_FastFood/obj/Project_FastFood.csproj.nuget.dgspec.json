@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
   },
   "projects": {
@@ -24,6 +25,18 @@
       "restore": {
         "projectUniqueName": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "projectName": "Project_FastFood",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectName": "Project_FastFood",
+>>>>>>> Stashed changes
         "projectPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "packagesPath": "C:\\Users\\kinga\\.nuget\\packages\\",
         "outputPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
@@ -53,6 +66,9 @@
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -63,7 +79,10 @@
         ],
         "configFilePaths": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
           "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,6 +92,9 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
