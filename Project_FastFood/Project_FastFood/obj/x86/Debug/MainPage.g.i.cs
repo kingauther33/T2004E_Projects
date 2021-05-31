@@ -6,11 +6,8 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 ﻿#pragma checksum "C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\MainPage.xaml" "{8829d00f-11b8-4213-878b-770e8597ac16}" "15742B8891B029C1AD03F51650E22BABBF9399322E8B9DECDBE900108A63302C"
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
 ﻿#pragma checksum "D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\MainPage.xaml" "{8829d00f-11b8-4213-878b-770e8597ac16}" "15742B8891B029C1AD03F51650E22BABBF9399322E8B9DECDBE900108A63302C"
@@ -20,9 +17,6 @@
 =======
 ﻿#pragma checksum "C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\MainPage.xaml" "{8829d00f-11b8-4213-878b-770e8597ac16}" "15742B8891B029C1AD03F51650E22BABBF9399322E8B9DECDBE900108A63302C"
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======

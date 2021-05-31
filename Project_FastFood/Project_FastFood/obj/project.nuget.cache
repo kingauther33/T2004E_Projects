@@ -7,7 +7,6 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "dgSpecHash": "x2x9FgCmVtzSCEv/VnuPCHenI7i7+NW8yKWGD2fwKE3rVZ6Qc2dztxmegZj/pp/snUHvhXBpXlx264RN/sK3xQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
@@ -25,6 +24,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +52,8 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of e57ab9d (Update)
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
     "C:\\Users\\kinga\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
@@ -91,9 +93,6 @@
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -116,17 +115,11 @@
     "C:\\Users\\Hello\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512"
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======

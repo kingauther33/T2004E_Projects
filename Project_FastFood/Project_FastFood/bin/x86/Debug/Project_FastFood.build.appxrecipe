@@ -10,12 +10,9 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <Machine>MSI</Machine>
     <WindowsUser>Hello</WindowsUser>
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
     <Machine>DESKTOP-HJ27J34</Machine>
@@ -28,9 +25,6 @@
     <Machine>MSI</Machine>
     <WindowsUser>Hello</WindowsUser>
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -55,11 +49,8 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
     <IntermediateOutputPath>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
@@ -69,9 +60,6 @@
 =======
     <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -106,17 +94,11 @@
   <ItemGroup>
     <AppXManifest Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -141,10 +123,7 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
@@ -154,26 +133,17 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
       <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -200,10 +170,7 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of ae6be87 (Update)
@@ -342,9 +309,6 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\bell.png">
       <PackagePath>Assets\bell.png</PackagePath>
@@ -453,17 +417,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
       <PackagePath>Pages\Take_Away.xbf</PackagePath>
     </AppxPackagedFile>
@@ -471,10 +429,7 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
@@ -484,26 +439,17 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -530,11 +476,8 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
@@ -544,9 +487,6 @@
 =======
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -566,14 +506,11 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -599,9 +536,6 @@
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -620,7 +554,6 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
@@ -644,18 +577,6 @@
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
-      <MoreInfo></MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
-=======
-      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
-      <MoreInfo></MoreInfo>
-    </ResolvedSDKReference>
->>>>>>> Stashed changes
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
@@ -664,9 +585,6 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -685,7 +603,6 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
@@ -704,18 +621,6 @@
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
-      <MoreInfo></MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
-=======
-      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
-      <MoreInfo></MoreInfo>
-    </ResolvedSDKReference>
->>>>>>> Stashed changes
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
@@ -724,9 +629,6 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -749,10 +651,7 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
@@ -762,26 +661,17 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -807,10 +697,7 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of ae6be87 (Update)
@@ -823,26 +710,17 @@
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
@@ -866,11 +744,8 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
@@ -880,9 +755,6 @@
 =======
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
