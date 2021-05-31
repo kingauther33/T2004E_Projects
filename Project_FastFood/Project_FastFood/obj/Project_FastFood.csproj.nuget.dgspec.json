@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,13 +17,17 @@
 =======
     "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
 >>>>>>> parent of 1fa4fae (lmao)
+=======
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+>>>>>>> parent of 6875e9f (update)
   },
   "projects": {
-    "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectUniqueName": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "projectName": "Project_FastFood",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "projectPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
@@ -96,12 +101,20 @@
         "packagesPath": "C:\\Users\\shyri\\.nuget\\packages\\",
         "outputPath": "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
 >>>>>>> parent of 1fa4fae (lmao)
+=======
+        "projectPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "packagesPath": "C:\\Users\\kinga\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+>>>>>>> parent of 6875e9f (update)
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,10 +133,13 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 6875e9f (update)
           "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -146,6 +162,8 @@
 >>>>>>> parent of 1fa4fae (lmao)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> parent of 7e22ac3 (Abc)
+=======
+>>>>>>> parent of 6875e9f (update)
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"

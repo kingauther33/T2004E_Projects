@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
 =======
 <<<<<<< HEAD
@@ -33,3 +34,6 @@ C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Proje
 =======
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
 >>>>>>> parent of 1fa4fae (lmao)
+=======
+D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
+>>>>>>> parent of 6875e9f (update)
