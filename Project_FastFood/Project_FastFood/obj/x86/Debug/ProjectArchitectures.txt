@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
 =======
 <<<<<<< HEAD
@@ -25,3 +26,6 @@ D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csp
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
+>>>>>>> parent of 7e22ac3 (Abc)

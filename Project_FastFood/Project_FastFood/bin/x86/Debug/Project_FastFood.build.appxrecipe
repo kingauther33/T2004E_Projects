@@ -3,6 +3,7 @@
   <PropertyGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Machine>DESKTOP-HJ27J34</Machine>
     <WindowsUser>kinga</WindowsUser>
 =======
@@ -34,6 +35,10 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+    <Machine>MSI</Machine>
+    <WindowsUser>Hello</WindowsUser>
+>>>>>>> parent of 7e22ac3 (Abc)
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -43,6 +48,7 @@
     <PackageIdentityPublisher>CN=kinga</PackageIdentityPublisher>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <IntermediateOutputPath>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
 =======
 <<<<<<< HEAD
@@ -68,12 +74,16 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+    <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> parent of 7e22ac3 (Abc)
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,11 +98,14 @@
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -111,6 +124,8 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
@@ -118,6 +133,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -134,10 +150,13 @@
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
       <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -158,11 +177,14 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -310,6 +332,8 @@
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\bell.png">
       <PackagePath>Assets\bell.png</PackagePath>
     </AppxPackagedFile>
@@ -416,34 +440,16 @@
       <PackagePath>Pages\Layout.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
-=======
->>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
->>>>>>> Stashed changes
       <PackagePath>Pages\Take_Away.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
-=======
-=======
->>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
->>>>>>> Stashed changes
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -464,12 +470,15 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <PackagePath>Project_FastFood.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
 =======
 <<<<<<< HEAD
@@ -495,10 +504,14 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -506,10 +519,13 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,10 +559,13 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -554,10 +573,13 @@
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,21 +614,27 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,12 +668,15 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -662,10 +693,13 @@
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -686,12 +720,15 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -711,10 +748,13 @@
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -732,12 +772,15 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+>>>>>>> parent of 7e22ac3 (Abc)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
 =======
 <<<<<<< HEAD
@@ -763,37 +806,40 @@
 >>>>>>> parent of ae6be87 (Update)
 =======
 >>>>>>> parent of 487736b (Update)
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+>>>>>>> parent of 7e22ac3 (Abc)
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
