@@ -1,3 +1,4 @@
+WinMetadata\Windows.winmd
 Assets\bell.png
 Assets\burger2.jpg
 Assets\cake.jpg
@@ -37,4 +38,3 @@ Pages\Take_Away.xbf
 >>>>>>> parent of ae6be87 (Update)
 Project_FastFood.xr.xml
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
