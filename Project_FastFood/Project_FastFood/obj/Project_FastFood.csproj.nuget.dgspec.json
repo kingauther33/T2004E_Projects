@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,13 +13,17 @@
 =======
 >>>>>>> parent of 7e22ac3 (Abc)
     "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+=======
+    "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+>>>>>>> parent of 1fa4fae (lmao)
   },
   "projects": {
-    "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+    "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectUniqueName": "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "projectName": "Project_FastFood",
+<<<<<<< HEAD
         "projectPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
@@ -86,12 +91,18 @@
 >>>>>>> parent of 487736b (Update)
 =======
 >>>>>>> parent of 7e22ac3 (Abc)
+=======
+        "projectPath": "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "packagesPath": "C:\\Users\\shyri\\.nuget\\packages\\",
+        "outputPath": "E:\\Assignments\\FPT Aptech\\XAMPP\\xampp\\htdocs\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+>>>>>>> parent of 1fa4fae (lmao)
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +141,9 @@
 >>>>>>> parent of 487736b (Update)
 =======
           "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\shyri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of 1fa4fae (lmao)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> parent of 7e22ac3 (Abc)
         ],

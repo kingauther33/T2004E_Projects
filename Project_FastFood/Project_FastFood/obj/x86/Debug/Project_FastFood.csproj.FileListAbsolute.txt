@@ -180,6 +180,7 @@ E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Proje
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\ProjectArchitectures.txt
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112750540000000.json
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+<<<<<<< HEAD
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf
@@ -283,3 +284,5 @@ C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x
 >>>>>>> parent of 487736b (Update)
 =======
 >>>>>>> parent of 7e22ac3 (Abc)
+=======
+>>>>>>> parent of 1fa4fae (lmao)
