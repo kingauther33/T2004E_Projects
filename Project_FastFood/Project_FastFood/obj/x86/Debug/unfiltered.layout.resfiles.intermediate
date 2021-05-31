@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\bell.png
 Assets\burger2.jpg
 Assets\cake.jpg
@@ -33,3 +32,4 @@ Pages\Layout.xbf
 Pages\Take_Away.xbf
 Project_FastFood.xr.xml
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

@@ -14,26 +14,30 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <RelativePanel Margin="50,60,50,60" Background="LightGray">
-            <TextBlock x:Name="burger" Text="Burger" FontSize="50" FontWeight="Bold" Margin="30,30,0,0"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <RelativePanel Grid.Row="1" Margin="50,60,50,60" Background="AliceBlue">
+            <TextBlock x:Name="burger" Text="Burger" FontSize="44" FontWeight="SemiBold" FontFamily="Century Gothic" Margin="30,30,0,0"/>
             <Image x:Name="bg1" Source="/Assets/burger2.jpg" Margin="0,120,0,0" />
-            <TextBlock x:Name="LoremThing" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="25" RelativePanel.Below="bg1" Margin="35,20,0,0" TextWrapping="Wrap"/>
-            <TextBlock x:Name="price" Text="$13" FontSize="46" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
-            <Button Content="Read More" Width="200" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
+            <TextBlock x:Name="LoremThing" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="22" FontFamily="Roboto" RelativePanel.Below="bg1" Margin="35,20,0,0" TextWrapping="Wrap"/>
+            <TextBlock x:Name="price" Text="$13" FontSize="40" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
+            <Button Content="Read More" Width="200" Height="50" FontSize="26" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
         </RelativePanel>
-        <RelativePanel Margin="50,60,50,60" Background="LightGray" Grid.Column="1">
-            <TextBlock x:Name="cake" Text="Cake" FontSize="50" FontWeight="Bold" Margin="30,30,0,0"/>
+        <RelativePanel Grid.Row="1" Margin="50,60,50,60" Background="AliceBlue" Grid.Column="1">
+            <TextBlock x:Name="cake" Text="Cake" FontSize="44" FontWeight="SemiBold" FontFamily="Century Gothic" Margin="30,30,0,0"/>
             <Image x:Name="bg2" Source="/Assets/cake.jpg" Margin="0,120,0,0" />
-            <TextBlock x:Name="LoremThing1" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="25" RelativePanel.Below="bg2" Margin="35,20,0,0" TextWrapping="Wrap"/>
-            <TextBlock Text="$23" FontSize="46" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
-            <Button Content="Read More" Width="200" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
+            <TextBlock x:Name="LoremThing1" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="22" FontFamily="Roboto" RelativePanel.Below="bg2" Margin="35,20,0,0" TextWrapping="Wrap"/>
+            <TextBlock Text="$23" FontSize="40" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
+            <Button Content="Read More" Width="200" Height="50" FontSize="26" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
         </RelativePanel>
-        <RelativePanel Margin="50,60,50,60" Background="LightGray" Grid.Column="2">
-            <TextBlock x:Name="pizza" Text="Pizza" FontSize="50" FontWeight="Bold" Margin="30,30,0,0"/>
+        <RelativePanel Grid.Row="1" Margin="50,60,50,60" Background="AliceBlue" Grid.Column="2">
+            <TextBlock x:Name="pizza" Text="Pizza" FontSize="44" FontWeight="SemiBold" FontFamily="Century Gothic" Margin="30,30,0,0"/>
             <Image x:Name="bg3" Source="/Assets/pizza.jpg" Margin="0,120,0,0" />
-            <TextBlock x:Name="LoremThing2" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="25" RelativePanel.Below="bg3" Margin="35,20,0,0" TextWrapping="Wrap"/>
-            <TextBlock Text="$45" FontSize="46" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
-            <Button Content="Read More" Width="200" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
+            <TextBlock x:Name="LoremThing2" Text="Lorem ipsum is a dummy text which is used as a placeholder" FontSize="22" FontFamily="Roboto" RelativePanel.Below="bg3" Margin="35,20,0,0" TextWrapping="Wrap"/>
+            <TextBlock Text="$45" FontSize="40" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
+            <Button Content="Read More" Width="200" Height="50" FontSize="26" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
         </RelativePanel>
     </Grid>
 </Page>
