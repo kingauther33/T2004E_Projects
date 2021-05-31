@@ -8159,6 +8159,7 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "C:\\Users\\Hello\\.nuget\\packages\\": {},
@@ -8180,11 +8181,17 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+    "C:\\Users\\kinga\\.nuget\\packages\\": {},
+    "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+>>>>>>> parent of 6875e9f (update)
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
@@ -8224,6 +8231,13 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+      "projectUniqueName": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+      "projectName": "Project_FastFood",
+      "projectPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+      "packagesPath": "C:\\Users\\kinga\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+>>>>>>> parent of 6875e9f (update)
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8232,6 +8246,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -8239,10 +8254,13 @@
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
         "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
@@ -8253,6 +8271,8 @@
         "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> parent of 6875e9f (update)
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"

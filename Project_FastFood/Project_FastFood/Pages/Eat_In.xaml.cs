@@ -26,7 +26,5 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
         }
-
-        
     }
 }
