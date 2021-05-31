@@ -30,13 +30,21 @@
     <AppXManifest Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2021-05-28T14:44:24.483</Modified>
+=======
+      <Modified>2021-05-30T02:00:07.763</Modified>
+>>>>>>> parent of 6875e9f (update)
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
       <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2021-05-28T14:44:22.879</Modified>
+=======
+      <Modified>2021-05-30T02:00:02.943</Modified>
+>>>>>>> parent of 6875e9f (update)
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -134,6 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.xr.xml">
       <PackagePath>Project_FastFood.xr.xml</PackagePath>
+<<<<<<< HEAD
       <Modified>2021-05-28T14:44:22.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf">
@@ -151,6 +160,49 @@
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
       <Modified>2021-05-28T14:44:22.636</Modified>
+=======
+      <Modified>2021-05-30T01:59:55.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf">
+      <PackagePath>Pages\Collection.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Customer.xbf">
+      <PackagePath>Pages\Customer.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Delivery.xbf">
+      <PackagePath>Pages\Delivery.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Driver_Payment.xbf">
+      <PackagePath>Pages\Driver_Payment.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Eat_In.xbf">
+      <PackagePath>Pages\Eat_In.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
+      <PackagePath>Pages\Layout.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
+      <PackagePath>Pages\Take_Away.xbf</PackagePath>
+      <Modified>2021-05-30T01:59:59.852</Modified>
+>>>>>>> parent of 6875e9f (update)
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -158,11 +210,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2021-05-28T14:40:38.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
       <PackagePath>Project_FastFood.exe</PackagePath>
       <Modified>2021-05-28T14:44:24.456</Modified>
+=======
+      <Modified>2021-05-30T00:34:58.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
+      <PackagePath>Project_FastFood.exe</PackagePath>
+      <Modified>2021-05-30T02:00:07.733</Modified>
+>>>>>>> parent of 6875e9f (update)
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

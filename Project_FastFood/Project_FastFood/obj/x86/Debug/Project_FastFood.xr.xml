@@ -18,6 +18,27 @@
       <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Project_FastFood.MainPage" />
+<<<<<<< HEAD
+=======
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Project_FastFood.Pages.Collection" />
+    <RootType FullName="Project_FastFood.Pages.Customer" />
+    <RootType FullName="Project_FastFood.Pages.Delivery" />
+    <RootType FullName="Project_FastFood.Pages.Driver_Payment" />
+    <RootType FullName="Project_FastFood.Pages.Eat_In" />
+>>>>>>> parent of 6875e9f (update)
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
