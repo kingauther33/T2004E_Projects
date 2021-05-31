@@ -8,6 +8,7 @@ namespace Project_FastFood.Models
 {
     class MenuHome
     {
+<<<<<<< Updated upstream
         public class Datum
         {
             public int id { get; set; }
@@ -22,5 +23,7 @@ namespace Project_FastFood.Models
             public string message { get; set; }
             public List<Datum> data { get; set; }
         }
+=======
+>>>>>>> Stashed changes
     }
 }
