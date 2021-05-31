@@ -4,6 +4,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+<<<<<<< HEAD
+=======
+    xmlns:models="using:Project_FastFood.Models"
+>>>>>>> parent of ae6be87 (Update)
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -15,8 +19,16 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <RelativePanel>
+<<<<<<< HEAD
                     <Button Margin="5,0,0,0" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE700;" Background="{x:Null}" FontSize="26" />
                     <Button Margin="10,50,0,0" Background="{x:Null}" Click="HomeNavigate">
+=======
+                    <!--ListButton-->
+                    <Button Margin="5,0,0,0" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE700;" Background="{x:Null}" FontSize="26" />
+
+                    <!--Following Title Navigation-->
+                    <!--<Button Margin="10,50,0,0" Background="{x:Null}" Click="HomeNavigate">
+>>>>>>> parent of ae6be87 (Update)
                         <StackPanel Orientation="Horizontal">
                             <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE770;" />
                             <TextBlock  Margin="20,0,0,0" Text="Home" FontFamily="Noto Sans" FontSize="16" />
@@ -46,12 +58,15 @@
                             <TextBlock  Margin="20,0,0,0" Text="Take Away" FontFamily="Noto Sans" FontSize="16" />
                         </StackPanel>
                     </Button>
+<<<<<<< HEAD
                     <Button Margin="10,300,0,0" Background="{x:Null}">
                         <StackPanel Orientation="Horizontal">
                             <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xED56;" />
                             <TextBlock  Margin="20,0,0,0" Text="Take Away" FontFamily="Noto Sans" FontSize="16" />
                         </StackPanel>
                     </Button>
+=======
+>>>>>>> parent of ae6be87 (Update)
                     <Button Margin="10,350,0,0" Background="{x:Null}">
                         <StackPanel Orientation="Horizontal">
                             <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE8C7;" />
@@ -64,7 +79,28 @@
                             <TextBlock  Margin="20,0,0,0" Text="Customers" FontFamily="Noto Sans" FontSize="16" />
                         </StackPanel>
                     </Button>
+<<<<<<< HEAD
                 </RelativePanel>
+=======
+                </RelativePanel>-->
+                    <!--END...-->
+
+                    <ListView Margin="0,50,0,0" x:Name="menuList" Loaded="menuList_Loaded">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:MenuItem">
+                                <ListViewItem Tapped="menuList_Tapped">
+                                    <StackPanel Margin="10,20" Orientation="Horizontal">
+                                        <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="{x:Bind Icon}" />
+                                        <TextBlock Margin="20,0,0,0" Text="{x:Bind Name}" FontFamily="Noto Sans" FontSize="16" />
+                                    </StackPanel>
+                                </ListViewItem>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </RelativePanel>
+
+                <!--Settings-->
+>>>>>>> parent of ae6be87 (Update)
                 <RelativePanel Grid.Row="1">
                     <Button RelativePanel.AlignBottomWithPanel="True"  FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xF142;" FontSize="20" Background="{x:Null}" />
                 </RelativePanel>
@@ -74,7 +110,11 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
+<<<<<<< HEAD
                     <RowDefinition Height="4*" />
+=======
+                    <RowDefinition Height="*" />
+>>>>>>> parent of ae6be87 (Update)
                 </Grid.RowDefinitions>
                 <RelativePanel Background="LemonChiffon" Grid.Row="0">
                     <Image Margin="30,0,0,0"  Source="/Assets/fast_food1.png" Width="75" />
@@ -97,9 +137,17 @@
                         <Image Source="/Assets/facebook.png"  Width="20" />
                     </Button>
                 </RelativePanel>
+<<<<<<< HEAD
                 <RelativePanel Grid.Row="1" Margin="0" Background="LavenderBlush">
                     <Frame x:Name="MainFrame"/>
                 </RelativePanel>
+=======
+                <Grid Grid.Row="1" Margin="0">
+                    <ScrollViewer>
+                        <Frame HorizontalAlignment="Stretch" x:Name="MainFrame"/>
+                    </ScrollViewer>
+                </Grid>
+>>>>>>> parent of ae6be87 (Update)
             </Grid>
         </SplitView.Content>
     </SplitView>

@@ -1,8 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <Machine>DESKTOP-HJ27J34</Machine>
     <WindowsUser>kinga</WindowsUser>
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    <Machine>MSI</Machine>
+    <WindowsUser>Hello</WindowsUser>
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Machine>DESKTOP-HJ27J34</Machine>
+    <WindowsUser>kinga</WindowsUser>
+=======
+    <Machine>MSI</Machine>
+    <WindowsUser>Hello</WindowsUser>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+    <Machine>MSI</Machine>
+    <WindowsUser>Hello</WindowsUser>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    <Machine>DESKTOP-HJ27J34</Machine>
+    <WindowsUser>kinga</WindowsUser>
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,30 +41,404 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>178c3075-242b-4745-83cf-31b269937768</PackageIdentityName>
     <PackageIdentityPublisher>CN=kinga</PackageIdentityPublisher>
+<<<<<<< HEAD
     <IntermediateOutputPath>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <IntermediateOutputPath>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+    <IntermediateOutputPath>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    <IntermediateOutputPath>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ae6be87 (Update)
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
+<<<<<<< HEAD
+=======
+=======
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\AppxManifest.xml">
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
       <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
+      <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.exe">
+      <PackagePath>entrypoint\Project_FastFood.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\bell.png">
+      <PackagePath>Assets\bell.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\facebook.png">
+      <PackagePath>Assets\facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\fast_food1.png">
+      <PackagePath>Assets\fast_food1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Hamburger.png">
+      <PackagePath>Assets\Hamburger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagramNew.png">
+      <PackagePath>Assets\instagramNew.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\shutdown.png">
+      <PackagePath>Assets\shutdown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\twitter.png">
+      <PackagePath>Assets\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagram-233-896451.png">
+      <PackagePath>Assets\instagram-233-896451.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+=======
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\burger2.jpg">
+      <PackagePath>Assets\burger2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\cake.jpg">
+      <PackagePath>Assets\cake.jpg</PackagePath>
+    </AppxPackagedFile>
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\image0.jpg">
+      <PackagePath>Assets\image0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagram.jpg">
+      <PackagePath>Assets\instagram.jpg</PackagePath>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+=======
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+    </AppxPackagedFile>
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\shutdown.ico">
+      <PackagePath>Assets\shutdown.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.xr.xml">
+      <PackagePath>Project_FastFood.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf">
+      <PackagePath>Pages\Collection.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Customer.xbf">
+      <PackagePath>Pages\Customer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Delivery.xbf">
+      <PackagePath>Pages\Delivery.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Driver_Payment.xbf">
+      <PackagePath>Pages\Driver_Payment.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Eat_In.xbf">
+      <PackagePath>Pages\Eat_In.xbf</PackagePath>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+>>>>>>> parent of 6875e9f (update)
+=======
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
+      <PackagePath>Pages\Layout.xbf</PackagePath>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
+      <PackagePath>Pages\Take_Away.xbf</PackagePath>
+    </AppxPackagedFile>
+>>>>>>> parent of 6875e9f (update)
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+=======
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\bell.png">
+      <PackagePath>Assets\bell.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\facebook.png">
+      <PackagePath>Assets\facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\fast_food1.png">
+      <PackagePath>Assets\fast_food1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Hamburger.png">
+      <PackagePath>Assets\Hamburger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagramNew.png">
+      <PackagePath>Assets\instagramNew.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\shutdown.png">
+      <PackagePath>Assets\shutdown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\twitter.png">
+      <PackagePath>Assets\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagram-233-896451.png">
+      <PackagePath>Assets\instagram-233-896451.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\burger2.jpg">
+      <PackagePath>Assets\burger2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\cake.jpg">
+      <PackagePath>Assets\cake.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\image0.jpg">
+      <PackagePath>Assets\image0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\instagram.jpg">
+      <PackagePath>Assets\instagram.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Assets\shutdown.ico">
+      <PackagePath>Assets\shutdown.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Project_FastFood.xr.xml">
+      <PackagePath>Project_FastFood.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf">
+      <PackagePath>Pages\Collection.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Customer.xbf">
+      <PackagePath>Pages\Customer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Delivery.xbf">
+      <PackagePath>Pages\Delivery.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Driver_Payment.xbf">
+      <PackagePath>Pages\Driver_Payment.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Eat_In.xbf">
+      <PackagePath>Pages\Eat_In.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
+      <PackagePath>Pages\Layout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Assets\bell.png">
       <PackagePath>Assets\bell.png</PackagePath>
     </AppxPackagedFile>
@@ -109,8 +514,6 @@
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-=======
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf">
       <PackagePath>Pages\Collection.xbf</PackagePath>
     </AppxPackagedFile>
@@ -126,76 +529,392 @@
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Eat_In.xbf">
       <PackagePath>Pages\Eat_In.xbf</PackagePath>
     </AppxPackagedFile>
->>>>>>> parent of 6875e9f (update)
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-=======
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
+>>>>>>> parent of 6875e9f (update)
       <PackagePath>Pages\Take_Away.xbf</PackagePath>
     </AppxPackagedFile>
->>>>>>> parent of 6875e9f (update)
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of ae6be87 (Update)
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Core\Project_FastFood.exe">
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <PackagePath>Project_FastFood.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+>>>>>>> Stashed changes
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ae6be87 (Update)
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
+=======
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+>>>>>>> Stashed changes
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of ae6be87 (Update)
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ae6be87 (Update)
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+<<<<<<< HEAD
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+      <AppxLocation>C:\Users\Hello\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.11\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+>>>>>>> parent of 6875e9f (update)
+>>>>>>> parent of ae6be87 (Update)
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
