@@ -6,11 +6,14 @@
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kinga\.nuget\packages\;D:\Phan_mem_C\MSV\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Hello\.nuget\packages\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
@@ -42,12 +45,15 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kinga\.nuget\packages\;D:\Phan_mem_C\MSV\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\kinga\.nuget\packages\" />
@@ -76,8 +82,11 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -85,9 +94,12 @@
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
     <Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.11</Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk>
     <Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29512-01</Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary>
     <Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.9-rel-29512-01</Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler>
@@ -101,7 +113,6 @@
     <Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler Condition=" '$(Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.9-rel-29512-01</Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler>
     <PkgMicrosoft_Net_UWPCoreRuntimeSdk Condition=" '$(PkgMicrosoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.uwpcoreruntimesdk\2.2.11</PkgMicrosoft_Net_UWPCoreRuntimeSdk>
     <PkgMicrosoft_Net_Native_Compiler Condition=" '$(PkgMicrosoft_Net_Native_Compiler)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.9-rel-29512-01</PkgMicrosoft_Net_Native_Compiler>
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -137,8 +148,11 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
   </PropertyGroup>
 </Project>

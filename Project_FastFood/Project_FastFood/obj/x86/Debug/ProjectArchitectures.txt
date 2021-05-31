@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
@@ -21,7 +24,10 @@ C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\Proje
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)

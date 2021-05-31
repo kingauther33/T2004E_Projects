@@ -2,8 +2,11 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
@@ -73,6 +76,7 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ae6be87 (Update)
     "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
@@ -90,6 +94,8 @@
 =======
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -99,8 +105,11 @@
         ],
         "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -108,14 +117,16 @@
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
           "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -128,9 +139,12 @@
           "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
 >>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"

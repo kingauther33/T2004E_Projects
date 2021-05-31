@@ -89,8 +89,11 @@ D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\Pages\
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\Pages\Driver_Payment.xbf
 D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\Pages\Take_Away.xbf
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf
@@ -292,6 +295,9 @@ C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ae6be87 (Update)
 >>>>>>> parent of 6875e9f (update)
+=======
+>>>>>>> parent of 487736b (Update)

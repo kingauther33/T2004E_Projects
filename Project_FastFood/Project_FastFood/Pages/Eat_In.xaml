@@ -10,9 +10,12 @@
 
     <Grid Background="LavenderBlush">
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 487736b (Update)
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -43,9 +46,12 @@
             <TextBlock Text="$45" FontSize="40" FontWeight="Bold" Foreground="Blue" FontFamily="century gothic" RelativePanel.AlignBottomWithPanel="True" Margin="20,0,0,20" />
             <Button Content="Read More" Width="200" Height="50" FontSize="26" FontWeight="SemiBold" Foreground="White" Background="Yellow" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,20"/>
         </RelativePanel>
+<<<<<<< HEAD
 =======
         
 >>>>>>> parent of 6875e9f (update)
 >>>>>>> parent of ae6be87 (Update)
+=======
+>>>>>>> parent of 487736b (Update)
     </Grid>
 </Page>

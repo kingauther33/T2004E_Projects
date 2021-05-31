@@ -162,12 +162,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bell.png" />
+    <Content Include="Assets\burger2.jpg" />
+    <Content Include="Assets\cake.jpg" />
     <Content Include="Assets\facebook.png" />
     <Content Include="Assets\fast_food1.png" />
     <Content Include="Assets\Hamburger.png" />
     <Content Include="Assets\image0.jpg" />
     <Content Include="Assets\instagram.jpg" />
     <Content Include="Assets\instagramNew.png" />
+    <Content Include="Assets\pizza.jpg" />
     <Content Include="Assets\settings.png" />
     <Content Include="Assets\shutdown.ico" />
     <Content Include="Assets\shutdown.png" />
