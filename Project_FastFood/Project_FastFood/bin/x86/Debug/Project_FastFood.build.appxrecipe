@@ -109,29 +109,11 @@
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf">
-      <PackagePath>Pages\Collection.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Customer.xbf">
-      <PackagePath>Pages\Customer.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Delivery.xbf">
-      <PackagePath>Pages\Delivery.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Driver_Payment.xbf">
-      <PackagePath>Pages\Driver_Payment.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Eat_In.xbf">
-      <PackagePath>Pages\Eat_In.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Take_Away.xbf">
-      <PackagePath>Pages\Take_Away.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
