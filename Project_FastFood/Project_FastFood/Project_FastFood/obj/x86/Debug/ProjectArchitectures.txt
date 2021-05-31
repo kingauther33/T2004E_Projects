@@ -1,1 +1,1 @@
-D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
+E:\Assignments\Aptech-SEM3\UWP_Projects-main\Project_FastFood\Project_FastFood\Project_FastFood.csproj;x86
