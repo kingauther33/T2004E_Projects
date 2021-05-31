@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
   },
   "projects": {
@@ -12,14 +13,70 @@
         "projectPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectName": "Project_FastFood",
+        "projectPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "packagesPath": "C:\\Users\\kinga\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+=======
+    "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectName": "Project_FastFood",
+        "projectPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+    "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "projectName": "Project_FastFood",
+        "projectPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\Project_FastFood.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hello\\source\\repos\\UWP_Projects\\Project_FastFood\\Project_FastFood\\obj\\",
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+>>>>>>> Stashed changes
           "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"

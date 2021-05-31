@@ -169,6 +169,15 @@ E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Proje
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\ProjectArchitectures.txt
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112750540000000.json
 E:\Assignments\FPT Aptech\XAMPP\xampp\htdocs\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+D:\Documents\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112750540000000.json
+=======
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+>>>>>>> Stashed changes
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\App.xbf
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\MainPage.xbf
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\bin\x86\Debug\Pages\Collection.xbf
@@ -256,3 +265,10 @@ C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112354540000000.json
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112750540000000.json
 C:\Users\Hello\source\repos\UWP_Projects\Project_FastFood\Project_FastFood\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+=======
+>>>>>>> 1fa4fae3575a4cea56367fe29fe4a6af4c085ac0
+>>>>>>> Stashed changes
