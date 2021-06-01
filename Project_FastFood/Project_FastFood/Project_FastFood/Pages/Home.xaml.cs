@@ -12,6 +12,11 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Project_FastFood.Services;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Net;
+using Project_FastFood.Models;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +30,17 @@ namespace Project_FastFood.Pages
         public Home()
         {
             this.InitializeComponent();
+            GetHomeMenu();
+        }
+
+        public async void GetHomeMenu()
+        {
+            HomeMenuService service = new HomeMenuService();
+            HomeMenu menu = await service.GetHomeMenu();
+            if (menu != null)
+            {
+                homeMenuItems.ItemsSource = menu.data;
+            }
         }
     }
 }
