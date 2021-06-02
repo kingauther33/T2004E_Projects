@@ -31,16 +31,18 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
             GetHomeMenu();
+            
         }
 
         public async void GetHomeMenu()
         {
             HomeMenuService service = new HomeMenuService();
-            HomeMenu menu = await service.GetHomeMenu();
+            HomeMenuData menu = await service.GetHomeMenu();
             if (menu != null)
             {
                 homeMenuItems.ItemsSource = menu.data;
             }
+            
         }
     }
 }

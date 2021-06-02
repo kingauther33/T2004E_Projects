@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_FastFood.Models
 {
-    public class HomeMenu
+    public class HomeMenuData
     {
         public string message { get; set; }
         public List<HomeMenuItem> data { get; set; }

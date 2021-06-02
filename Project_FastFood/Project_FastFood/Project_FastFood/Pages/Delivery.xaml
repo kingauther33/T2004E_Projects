@@ -10,5 +10,6 @@
 
     <Grid Background="LavenderBlush">
         <TextBlock x:Name="deliveryTextTest" Style="{StaticResource HeaderTextBlockStyle}" Text="" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image x:Name="testImg" Loaded="testImg_Loaded"/>
     </Grid>
 </Page>

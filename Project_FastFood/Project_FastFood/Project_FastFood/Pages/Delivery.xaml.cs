@@ -33,5 +33,10 @@ namespace Project_FastFood.Pages
             deliveryTextTest.Text = msg;
             base.OnNavigatedTo(e);
         }
+
+        private void testImg_Loaded(object sender, RoutedEventArgs e)
+        {
+            BitmapImage
+        }
     }
 }

@@ -27,5 +27,10 @@ namespace Project_FastFood.Adapters
         {
             get => String.Format(baseURL + "/api/today-special");
         }
+
+        public string GetCategoryMenuAPI
+        {
+            get => String.Format(baseURL + "/api/category/" + App.getCategoryID.id);
+        }
     }
 }
