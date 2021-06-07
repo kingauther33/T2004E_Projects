@@ -36,7 +36,7 @@ namespace Project_FastFood.Pages
 
         private void testImg_Loaded(object sender, RoutedEventArgs e)
         {
-            BitmapImage
+           
         }
     }
 }
