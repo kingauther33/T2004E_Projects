@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Project_FastFood.Models
 {
-    class CreateOrder
+    public class Data
     {
+        public int order_id { get; set; }
     }
+
+    public class CreateOrder
+    {
+        public string message { get; set; }
+        public Data data { get; set; }
+    }
+
 }
