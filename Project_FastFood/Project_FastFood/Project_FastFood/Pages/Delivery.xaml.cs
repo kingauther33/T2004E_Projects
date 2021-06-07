@@ -34,5 +34,10 @@ namespace Project_FastFood.Pages
             base.OnNavigatedTo(e);
         }
 
+        private void testImg_Loaded(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
     }
 }
