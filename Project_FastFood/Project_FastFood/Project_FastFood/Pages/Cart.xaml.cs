@@ -20,19 +20,11 @@ namespace Project_FastFood.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Delivery : Page
+    public sealed partial class Cart : Page
     {
-        public Delivery()
+        public Cart()
         {
             this.InitializeComponent();
         }
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            string msg = e.Parameter as string;
-            deliveryTextTest.Text = msg;
-            base.OnNavigatedTo(e);
-        }
-
     }
 }
