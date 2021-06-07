@@ -8,7 +8,35 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
+    <Grid Background="LightGray">
+        <Grid x:Name="Grid1" Margin="100,200,100,200" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <RelativePanel>
+                <TextBlock Text="Shopping Cart" FontWeight="Bold" FontSize="40" FontFamily="central gothic" Foreground="DarkGray" Margin="50"/>
+                <TextBlock x:Name="continue" Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" RelativePanel.AlignBottomWithPanel="True" Margin="50" />
+                <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" RelativePanel.RightOf="continue" Margin="200,0,0,50"/>
+            </RelativePanel>
+            <Grid x:Name="Grid2" Background="SlateGray" Grid.Column="1" >
+                <RelativePanel>
+                    <TextBlock Text="Card Details" Foreground="White" Margin="40" FontSize="30" FontWeight="SemiBold" FontFamily="central gothic"/>
+                    <Image x:Name="visa" Source="/Assets/dich-vu-visa.jpg" Width="100" Height="100" Margin="40,90,294,410"/>
+                    <Image x:Name="paypal" Source="/Assets/paypal.png" Width="100" Height="100" Margin="170,90,160,410"/>
+                    <Image x:Name="mastercard" Source="/Assets/mastercard.jpg" Width="100" Height="100" Margin="300,90,20,410" />
+                    <TextBlock x:Name="txt1" Text="Card Holder" FontSize="20" Margin="40,200,0,0" Foreground="White"/>
+                    <TextBox RelativePanel.Below="txt1" Width="350" Margin="40,10,0,0" BorderThickness="0,0,0,1" BorderBrush="WhiteSmoke" Background="SlateGray"/>
+                    <TextBlock x:Name="txt2" Text="Card Number" FontSize="20" Margin="40,300,0,0" Foreground="White"/>
+                    <PasswordBox IsPasswordRevealButtonEnabled="True" PasswordChar="*" RelativePanel.Below="txt2" Width="350" Margin="40,10,0,0" BorderThickness="0,0,0,1" BorderBrush="WhiteSmoke" Background="SlateGray"/>
+                    <TextBlock x:Name="txt3" Text="Expiry Date" FontSize="20" Margin="40,400,0,0" Foreground="White"/>
+                    <TextBox RelativePanel.Below="txt3" Width="70" Margin="40,10,0,0" BorderThickness="0,0,0,1" BorderBrush="WhiteSmoke" Background="SlateGray"/>
+                    <TextBlock x:Name="txt4" Text="PIN" FontSize="20" Margin="280,400,0,0" Foreground="White"/>
+                    <TextBox RelativePanel.Below="txt3" Width="70" Margin="280,10,0,0" BorderThickness="0,0,0,1" BorderBrush="WhiteSmoke" Background="SlateGray"/>
+                    <Button Content="Check Out" FontSize="25" FontWeight="SemiBold" FontFamily="central gothic" RelativePanel.AlignBottomWithPanel="True" Width="350" Height="50" Margin="40" Background="CornflowerBlue" Foreground="White"/>
+                </RelativePanel>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>
+
