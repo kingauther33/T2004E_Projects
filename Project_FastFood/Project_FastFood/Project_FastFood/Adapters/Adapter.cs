@@ -32,5 +32,10 @@ namespace Project_FastFood.Adapters
         {
             get => String.Format(baseURL + "/api/category/" + App.getCategoryID.id);
         }
+
+        public string GetCreateOrderAPI
+        {
+            get => String.Format(baseURL + "/api/create-order");
+        }
     }
 }

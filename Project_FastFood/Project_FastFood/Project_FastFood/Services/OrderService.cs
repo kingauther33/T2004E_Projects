@@ -9,19 +9,20 @@ using Windows.Storage.Streams;
 using Windows.Web.Http;
 using Newtonsoft.Json;
 using Project_FastFood.Models;
+using Project_FastFood.Adapters;
 
 namespace Project_FastFood.Services
 {
     class OrderService
     {
-        private Adapters.Adapter adapter = Adapters.Adapter.GetAdapter();
-        public async Task<bool> CreateOrder(List<CartItem> items)
+        private Adapter adapter = Adapter.GetAdapter();
+        public async Task<CreateOrder> CreateOrder(List<CartItem> items)
         {
             HttpClient httpClient = new HttpClient();
             Uri uri = new Uri(adapter.GetCreateOrderAPI);
             HttpStringContent content = new HttpStringContent("{items: "
                 + JsonConvert.SerializeObject(items) + "}",
-                UnicodeEncoding.utf8,
+                UnicodeEncoding.Utf8,
                 "application/json");
             HttpResponseMessage httpResponseMessage = await httpClient.PostAsync(uri, content);
             httpResponseMessage.EnsureSuccessStatusCode();

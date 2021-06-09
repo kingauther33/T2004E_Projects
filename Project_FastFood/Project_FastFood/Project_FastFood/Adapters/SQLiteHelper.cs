@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SQLitePCL;
 using System.IO;
 using Windows.Storage;
+
 namespace UWP.Adapters
 {
     class SQLiteHelper
