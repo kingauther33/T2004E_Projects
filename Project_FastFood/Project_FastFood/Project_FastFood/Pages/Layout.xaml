@@ -70,7 +70,7 @@
                             <DataTemplate x:DataType="models:MenuItem">
                                 <ListViewItem Tapped="menuList_Tapped">
                                     <StackPanel Margin="10,20" Orientation="Horizontal">
-                                        <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="{x:Bind Icon}" />
+                                        <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="{x:Bind Icon}"/>
                                         <TextBlock Margin="20,0,0,0" Text="{x:Bind Name}" FontFamily="Noto Sans" FontSize="16" />
                                     </StackPanel>
                                 </ListViewItem>
