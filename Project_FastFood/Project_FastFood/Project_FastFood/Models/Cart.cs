@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Project_FastFood.Services;
-using Project_FastFood.Adapters;
 using SQLitePCL;
+using Project_FastFood.Models;
+using Project_FastFood.Adapters;
 
 namespace Project_FastFood.Models
 {
@@ -13,7 +14,7 @@ namespace Project_FastFood.Models
     {
         public List<CartItem> GetCart()
         {
-            SQLiteHelper qLiteHelper = SQLiteHelper.getInstance();
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_txt = "select * from Cart";
             var statement = sQLiteConnection.Prepare(sql_txt);
@@ -33,7 +34,7 @@ namespace Project_FastFood.Models
 
         public bool AddToCart(CartItem item)
         {
-            SQLiteHelper qLiteHelper = SQLiteHelper.getInstance();
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_txt = "insert into Cart (id,name,image,price,qty) values(?,?,?,?,?)";
             var statement = sQLiteConnection.Prepare(sql_txt);
@@ -48,7 +49,7 @@ namespace Project_FastFood.Models
 
         public bool RemoveItem(CartItem item)
         {
-            SQLiteHelper qLiteHelper = SQLiteHelper.getInstance();
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_txt = "delete from Cart where id = ?";
             var statement = sQLiteConnection.Prepare(sql_txt);
@@ -59,11 +60,11 @@ namespace Project_FastFood.Models
 
         public bool UpdateCart(CartItem item, int qty)
         {
-            SQLiteHelper qLiteHelper = SQLiteHelper.getInstance();
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_txt = "update Cart set qty = ? where id = ?";
-            var statement = sQLiteConnection.Prepare(sql_txt);
-            statement.Bind(1, qty);
+            var statement = sQLiteConnection.Prepare(sql_txt); // them so luong
+            statement.Bind(1, qty); 
             statement.Bind(2, item.id);
             var rs = statement.Step();
             return rs == SQLiteResult.OK;
@@ -71,7 +72,7 @@ namespace Project_FastFood.Models
 
         public bool ClearCart()
         {
-            SQLiteHelper qLiteHelper = SQLiteHelper.getInstance();
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_txt = "delete from Cart";
             var statement = sQLiteConnection.Prepare(sql_txt);

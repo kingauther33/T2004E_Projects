@@ -16,8 +16,8 @@
             </Grid.ColumnDefinitions>
             <RelativePanel>
                 <TextBlock Text="Shopping Cart" FontWeight="Bold" FontSize="40" FontFamily="central gothic" Foreground="DarkGray" Margin="50"/>
-                <TextBlock x:Name="continue" Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" RelativePanel.AlignBottomWithPanel="True" Margin="50" />
-                <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" RelativePanel.RightOf="continue" Margin="200,0,0,50"/>
+                <TextBlock x:Name="continue1" Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" RelativePanel.AlignBottomWithPanel="True" Margin="50" />
+                <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" RelativePanel.RightOf="continue1" Margin="200,0,0,50"/>
             </RelativePanel>
             <Grid x:Name="Grid2" Background="SlateGray" Grid.Column="1" >
                 <RelativePanel>

@@ -7,7 +7,7 @@ using SQLitePCL;
 using System.IO;
 using Windows.Storage;
 
-namespace UWP.Adapters
+namespace Project_FastFood.Adapters
 {
     class SQLiteHelper
     {
