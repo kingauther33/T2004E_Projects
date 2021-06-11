@@ -37,7 +37,6 @@ namespace Project_FastFood.Pages
             GetCategoryMenu();
         }
 
-
         private void BurgerFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 1;
