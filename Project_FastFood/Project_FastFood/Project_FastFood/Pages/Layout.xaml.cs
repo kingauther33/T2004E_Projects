@@ -44,7 +44,7 @@ namespace Project_FastFood.Pages
                 case "collection": MainFrame.Navigate(typeof(Pages.Collection), "This is Collection Page"); break;
                 case "delivery": MainFrame.Navigate(typeof(Pages.Delivery), "This is Delivery Page"); break;
                 case "take away": MainFrame.Navigate(typeof(Pages.Take_Away), "This is Take Away Page"); break; 
-                case "driver payment": MainFrame.Navigate(typeof(Pages.Driver_Payment), "This is Driver Payment Page"); break; 
+                case "driver payment": MainFrame.Navigate(typeof(Pages.Cart)); break; 
                 case "customers": MainFrame.Navigate(typeof(Pages.Customer), "This is Customer Page"); break; 
             }
         }
