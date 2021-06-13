@@ -84,5 +84,11 @@ namespace Project_FastFood.Pages
         //    collectionTextTest.Text = msg;
         //    base.OnNavigatedTo(e);
         //}        
+
+        private void onGridViewSizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            var columns = Math.Ceiling(ActualWidth / 800);
+            ((ItemsWrapGrid)CategoryMenuList.ItemsPanelRoot).ItemWidth = e.NewSize.Width / columns;
+        }
     }
 }

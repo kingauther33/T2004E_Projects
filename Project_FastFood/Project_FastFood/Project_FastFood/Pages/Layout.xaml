@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <SplitView x:Name="splitV" OpenPaneLength="200" IsPaneOpen="True" DisplayMode="Inline" PaneBackground="AntiqueWhite">
+    <SplitView x:Name="splitV" OpenPaneLength="200" IsPaneOpen="True" DisplayMode="Inline" PaneBackground="#1f1e1e">
         <SplitView.Pane>
             <Grid>
                 <Grid.RowDefinitions>
@@ -17,7 +17,7 @@
                 </Grid.RowDefinitions>
                 <RelativePanel>
                     <!--ListButton-->
-                    <Button Margin="5,0,0,0" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE700;" Background="{x:Null}" FontSize="26" />
+                    <Button Margin="5,0,0,0" Foreground="White" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE700;" Background="{x:Null}" FontSize="26" />
 
                     <!--Following Title Navigation-->
                     <!--<Button Margin="10,50,0,0" Background="{x:Null}" Click="HomeNavigate">
@@ -70,8 +70,8 @@
                             <DataTemplate x:DataType="models:MenuItem">
                                 <ListViewItem Tapped="menuList_Tapped">
                                     <StackPanel Margin="10,20" Orientation="Horizontal">
-                                        <FontIcon VerticalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="{x:Bind Icon}"/>
-                                        <TextBlock Margin="20,0,0,0" Text="{x:Bind Name}" FontFamily="Noto Sans" FontSize="16" />
+                                        <FontIcon VerticalAlignment="Center" Foreground="White" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="{x:Bind Icon}"/>
+                                        <TextBlock Margin="20,0,0,0" Text="{x:Bind Name}" FontFamily="Noto Sans" FontSize="16" Foreground="White"/>
                                     </StackPanel>
                                 </ListViewItem>
                             </DataTemplate>
@@ -91,7 +91,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <RelativePanel Background="LemonChiffon" Grid.Row="0">
+                <RelativePanel Background="#cc1800" Grid.Row="0">
                     <Image Margin="30,0,0,0"  Source="/Assets/fast_food1.png" Width="75" />
                     <Button RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="0,0,10,0" Background="{x:Null}">
                         <Image Source="/Assets/shutdown.ico" Width="20" />
