@@ -33,35 +33,38 @@
                     <TextBlock Grid.Column="1" Text="Price" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Bottom" Margin="0,0,0,0"/>
                     <TextBlock Grid.Column="2" Text="Quantity" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Bottom" Margin="0,0,0,0"/>
                 </Grid>
+
+
                 <ListView Grid.Row="1" x:Name="CartListView">
-                    <!--<ListView.ItemContainerStyle>
-                        <Style TargetType="ListViewItem">
-                            --><!--<Setter Property="HorizontalContentAlignment" Value="Stretch"/>--><!--
-                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
-                            <Setter Property="Margin" Value="15"/>
-                            <Setter Property="BorderBrush" Value="Black"/>
-                            <Setter Property="BorderThickness" Value="1"/>
-                        </Style>
-                    </ListView.ItemContainerStyle>-->
-                    <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="models:CartItem">
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="8*"/>
-                                        <ColumnDefinition Width="2*"/>
-                                        <ColumnDefinition Width="2*"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-                                    <Image Source="{x:Bind image}" Margin="20,10,10,10" Width="100" Height="150" VerticalAlignment="Center"/>
-                                    <TextBlock Grid.Column="1" Text="{x:Bind name}"/>
-                                    <TextBlock Grid.Column="2" Text="{x:Bind price}"/>
-                                    <TextBlock Grid.Column="3" Text="{x:Bind qty}"/>
-                                </Grid>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                    <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:CartItem">
+                                <ListViewItem Margin="0,10,0,40" Width="800">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Image Source="{x:Bind image}" Margin="0,0,0,0" Width="100" Height="150" VerticalAlignment="Center"/>
+                                        <TextBlock Grid.Column="1" Text="{x:Bind name}" MaxWidth="160" VerticalAlignment="center" FontWeight="SemiBold" Style="{StaticResource HeaderTextBlockStyle}" FontSize="24" Margin="40,0,0,0" TextWrapping="Wrap"/>
+                                        <TextBlock Grid.Column="2" Text="{x:Bind price}" VerticalAlignment="Center" Margin="120,0,0,0" TextWrapping="Wrap"/>
+                                        <TextBlock Grid.Column="3" Text="{x:Bind qty}" VerticalAlignment="Center" Margin="100,0,0,0" TextWrapping="Wrap"/>
+                                        <Button Grid.Column="4" FontFamily="{StaticResource SymbolThemeFontFamily}" Content="&#xE711;" />
+                                    </Grid>
+                                </ListViewItem>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                
                 <Grid Grid.Row="2">
-                    <TextBlock Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" VerticalAlignment="Center" Margin="50,0,0,0"/>
+                    <Button Click="Shop_Click" Content="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Background="White" Foreground="Blue" VerticalAlignment="Center" Margin="50,0,0,0"/>
                     <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" VerticalAlignment="Center" Margin="600,0,0,0"/>
                 </Grid>
             </Grid>

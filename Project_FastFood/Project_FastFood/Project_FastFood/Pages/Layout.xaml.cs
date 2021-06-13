@@ -11,10 +11,12 @@ namespace Project_FastFood.Pages
     /// </summary>
     public sealed partial class Layout : Page
     {
+        internal static Frame _mainFrame;
         public Layout()
         {
             this.InitializeComponent();
             MainFrame.Navigate(typeof(Pages.Home));
+            _mainFrame = MainFrame;
             App.getCategoryID.id = 1;
         }
 
