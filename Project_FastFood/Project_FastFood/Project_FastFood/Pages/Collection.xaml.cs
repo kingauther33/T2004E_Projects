@@ -33,7 +33,7 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
             //ObservableCollection<Food> dataList = new ObservableCollection<Food>();
-
+            App.getCategoryID.id = 1;
             GetCategoryMenu();
         }
 
@@ -87,7 +87,7 @@ namespace Project_FastFood.Pages
 
         private void onGridViewSizeChanged(object sender, SizeChangedEventArgs e)
         {
-            var columns = Math.Ceiling(ActualWidth / 800);
+            var columns = Math.Ceiling(ActualWidth / 1000);
             ((ItemsWrapGrid)CategoryMenuList.ItemsPanelRoot).ItemWidth = e.NewSize.Width / columns;
         }
     }
