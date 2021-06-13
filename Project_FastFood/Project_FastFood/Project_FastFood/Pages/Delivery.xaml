@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="LavenderBlush">
+    <Grid Background="#c4ffcf">
         <TextBlock x:Name="deliveryTextTest" Style="{StaticResource HeaderTextBlockStyle}" Text="" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Image x:Name="testImg" Loaded="testImg_Loaded"/>
     </Grid>

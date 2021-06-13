@@ -38,14 +38,15 @@ namespace Project_FastFood.Models
             SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
             string sql_checkId = "select * from Cart where id = " + item.id;
             var statementCheckId = sQLiteConnection.Prepare(sql_checkId);
-            int i = item.qty;
             if (SQLiteResult.ROW == statementCheckId.Step())
             {
+                int qty = Convert.ToInt32(statementCheckId[4]);
+                int id = Convert.ToInt32(statementCheckId[0]);
                 // Update  qty + 1 
-                string sql_updateCartChecked = "update Cart set qty = 14 where id = 23";
+                string sql_updateCartChecked = "update Cart set qty = ? where id = ?";
                 var statementUpdateChecked = sQLiteConnection.Prepare(sql_updateCartChecked); // them so luong
-                //statementUpdateChecked.Bind(1, i + 1);
-                //statementUpdateChecked.Bind(2, item.id);
+                statementUpdateChecked.Bind(1, qty + 1);
+                statementUpdateChecked.Bind(2, id);
                 var resultUpdate = statementUpdateChecked.Step();
                 return resultUpdate == SQLiteResult.DONE;
             } else
@@ -93,6 +94,7 @@ namespace Project_FastFood.Models
             var statement = sQLiteConnection.Prepare(sql_txt);
             var rs = statement.Step();
             return rs == SQLiteResult.DONE;
+            // Server hong, em chi lay duoc ra id cua item duoc Order
         }
     }
 }

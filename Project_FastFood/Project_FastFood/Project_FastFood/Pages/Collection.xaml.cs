@@ -41,31 +41,31 @@ namespace Project_FastFood.Pages
         private void BurgerFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 1;
-            Frame.Navigate(this.GetType());
+            CollectionFrame.Navigate(this.GetType());
         }
 
         private void ChickenFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 2;
-            Frame.Navigate(this.GetType());
+            CollectionFrame.Navigate(this.GetType());
         }
 
         private void RiceFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 3;
-            Frame.Navigate(this.GetType());
+            CollectionFrame.Navigate(this.GetType());
         }
 
         private void DrinksFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 4;
-            Frame.Navigate(this.GetType());
+            CollectionFrame.Navigate(this.GetType());
         }
 
         private void DesertFood_Click(object sender, RoutedEventArgs e)
         {
             App.getCategoryID.id = 5;
-            Frame.Navigate(this.GetType());
+            CollectionFrame.Navigate(this.GetType());
         }
 
         private void Cart_Click(object sender, RoutedEventArgs e)
@@ -104,8 +104,9 @@ namespace Project_FastFood.Pages
             Food foodSelected = CategoryMenuList.SelectedItem as Food;
             CartModel cartModel = new CartModel();
             // Day Food vao trong Cart Item va mac dinh qty = 1
-            CartItem cartItem = new CartItem(foodSelected.id, foodSelected.name, foodSelected.image, foodSelected.price, 1);
-            TestButtonSubmit.Text = cartModel.AddToCart(cartItem).ToString();
+            CartItem cartItem = new CartItem(foodSelected.id, foodSelected.name, foodSelected.image, foodSelected.price);
+            //TestButtonSubmit.Text = cartModel.AddToCart(cartItem).ToString();
+            cartModel.AddToCart(cartItem);
         }
     }
 }

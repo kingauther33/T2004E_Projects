@@ -29,7 +29,12 @@ namespace Project_FastFood.Pages
     {
         public Home()
         {
-            this.InitializeComponent();  
+            this.InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Layout._mainFrame.Navigate(typeof(Pages.Collection));
         }
     }
 }

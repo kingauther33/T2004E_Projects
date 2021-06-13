@@ -12,6 +12,7 @@ namespace Project_FastFood.Pages
     public sealed partial class Layout : Page
     {
         internal static Frame _mainFrame;
+        internal static ListView _menuList;
         public Layout()
         {
             this.InitializeComponent();
