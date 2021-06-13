@@ -36,5 +36,10 @@ namespace Project_FastFood.Pages
             CartModel cartModel = new CartModel();
             CartListView.ItemsSource = cartModel.GetCart();
         }
+
+        private void Shop_Click(object sender, RoutedEventArgs e)
+        {
+            Layout._mainFrame.Navigate(typeof(Pages.Collection));
+        }
     }
 }

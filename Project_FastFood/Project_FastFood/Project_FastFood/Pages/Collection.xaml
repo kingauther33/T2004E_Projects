@@ -48,7 +48,7 @@
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Text="Image" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" Margin="25,0,120,0" TextWrapping="Wrap" />--><!--
         </Grid>-->
         <GridView IsSwipeEnabled="False" Margin="50,65,0,10" x:Name="CategoryMenuList" Grid.Row="2" SizeChanged="onGridViewSizeChanged">
-            <GridView.ItemContainerStyle>
+            <!--<GridView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
                     <Setter Property="VerticalContentAlignment" Value="Stretch"/>
@@ -56,7 +56,7 @@
                     <Setter Property="BorderBrush" Value="Black"/>
                     <Setter Property="BorderThickness" Value="1"/>
                 </Style>
-            </GridView.ItemContainerStyle>
+            </GridView.ItemContainerStyle>-->
 
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="models:Food">
@@ -88,6 +88,9 @@
         </GridView>
         <Grid Grid.Row="3">
             <TextBlock x:Name="TestButtonSubmit" Margin="30" FontSize="50" Foreground="Red"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Button Click="Cart_Click" x:Name="GotoCart" Content="Go To Cart!" Margin="1000,0,0,30" FontSize="30" Width="300" Background="White" CornerRadius="10" FontWeight="SemiBold" BorderBrush="Black" BorderThickness="1.5"/>
         </Grid>
     </Grid>
 </Page>

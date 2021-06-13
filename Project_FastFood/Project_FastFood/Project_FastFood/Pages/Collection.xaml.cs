@@ -68,6 +68,11 @@ namespace Project_FastFood.Pages
             Frame.Navigate(this.GetType());
         }
 
+        private void Cart_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Pages.Cart));
+        }
+
         public async void GetCategoryMenu()
         {
             CategoryMenuService categoryService = new CategoryMenuService();
