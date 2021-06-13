@@ -123,7 +123,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\CartModel.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\CategoryMenu.cs" />
     <Compile Include="Models\CreateOrder.cs" />
@@ -156,6 +156,9 @@
     </Compile>
     <Compile Include="Pages\Take_Away.xaml.cs">
       <DependentUpon>Take_Away.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test2.xaml.cs">
+      <DependentUpon>Test2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TestXam.xaml.cs">
       <DependentUpon>TestXam.xaml</DependentUpon>
@@ -245,6 +248,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Take_Away.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Test2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +14,18 @@ namespace Project_FastFood.Models
         public string icon { get; set; }
     }
 
-    public class Food
+    public class Food : INotifyPropertyChanged
     {
-        public int id { get; set; }
+        private int Id;
+        public int id
+        {
+            get { return Id; }
+            set
+            {
+                Id = value;
+                OnPropertyChanged("id");
+            }
+        }
 
         public string name { get; set; }
 
@@ -25,13 +35,14 @@ namespace Project_FastFood.Models
 
         public int price { get; set; }
 
-        public Food(int id, string name, string image, string description, int price)
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged(string propertyName)
         {
-            this.id = id;
-            this.name = name;
-            this.image = image;
-            this.description = description;
-            this.price = price;
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
         }
     }
 

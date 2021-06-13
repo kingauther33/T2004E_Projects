@@ -4,21 +4,67 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Project_FastFood.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:models="using:Project_FastFood.Models"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="LightGray">
-        <Grid x:Name="Grid1" Margin="100,200,100,200" Background="White">
+    <Grid Background="#c4ffcf">
+        <Grid x:Name="Grid1" Margin="100,100,100,100" Background="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <RelativePanel>
-                <TextBlock Text="Shopping Cart" FontWeight="Bold" FontSize="40" FontFamily="central gothic" Foreground="DarkGray" Margin="50"/>
-                <TextBlock x:Name="continue1" Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" RelativePanel.AlignBottomWithPanel="True" Margin="50" />
-                <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" RelativePanel.RightOf="continue1" Margin="200,0,0,50"/>
-            </RelativePanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Shopping Cart" FontWeight="Bold" FontSize="35" FontFamily="central gothic" Foreground="DarkGray" Margin="30,20,0,0"/>
+                    <TextBlock Text="Product" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Bottom" Margin="30,0,0,0"/>
+                    <TextBlock Grid.Column="1" Text="Price" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Bottom" Margin="0,0,0,0"/>
+                    <TextBlock Grid.Column="2" Text="Quantity" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Bottom" Margin="0,0,0,0"/>
+                </Grid>
+                <ListView Grid.Row="1" x:Name="CartListView">
+                    <!--<ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            --><!--<Setter Property="HorizontalContentAlignment" Value="Stretch"/>--><!--
+                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                            <Setter Property="Margin" Value="15"/>
+                            <Setter Property="BorderBrush" Value="Black"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                        </Style>
+                    </ListView.ItemContainerStyle>-->
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:CartItem">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="8*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{x:Bind image}" Margin="20,10,10,10" Width="100" Height="150" VerticalAlignment="Center"/>
+                                    <TextBlock Grid.Column="1" Text="{x:Bind name}"/>
+                                    <TextBlock Grid.Column="2" Text="{x:Bind price}"/>
+                                    <TextBlock Grid.Column="3" Text="{x:Bind qty}"/>
+                                </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid Grid.Row="2">
+                    <TextBlock Text="Continue Shopping" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Blue" VerticalAlignment="Center" Margin="50,0,0,0"/>
+                    <TextBlock Text="Subtotal:" FontWeight="SemiBold" FontSize="30" FontFamily="central gothic" Foreground="Gray" RelativePanel.AlignBottomWithPanel="True" VerticalAlignment="Center" Margin="600,0,0,0"/>
+                </Grid>
+            </Grid>
             <Grid x:Name="Grid2" Background="SlateGray" Grid.Column="1" >
                 <RelativePanel>
                     <TextBlock Text="Card Details" Foreground="White" Margin="40" FontSize="30" FontWeight="SemiBold" FontFamily="central gothic"/>

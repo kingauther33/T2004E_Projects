@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Project_FastFood.Models
 {
-    class CartItem
+    class CartItem : INotifyPropertyChanged
     {
         public CartItem(int id, string name, string image, int price, int qty)
         {
@@ -21,7 +22,29 @@ namespace Project_FastFood.Models
         public string name { get; set; }
         public string image { get; set; }
         public int price { get; set; }
-        public int qty { get; set; }
+
+        private int Qty;
+        public int qty { 
+            get
+            {
+                return Qty;
+            }
+            set
+            {
+                Qty = value;
+                OnPropertyChanged("qty");
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void OnPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
     }
 }
 

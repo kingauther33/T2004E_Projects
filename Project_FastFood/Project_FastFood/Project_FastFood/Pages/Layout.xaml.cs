@@ -15,6 +15,7 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
             MainFrame.Navigate(typeof(Pages.Home));
+            App.getCategoryID.id = 1;
         }
 
         //private void HomeNavigate(object sender, RoutedEventArgs e)

@@ -19,6 +19,8 @@ using System.Net;
 using System.Net.Http;
 using Newtonsoft.Json;
 using Project_FastFood.Services;
+using SQLitePCL;
+using Project_FastFood.Adapters;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -33,7 +35,6 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
             //ObservableCollection<Food> dataList = new ObservableCollection<Food>();
-            App.getCategoryID.id = 1;
             GetCategoryMenu();
         }
 
@@ -89,6 +90,17 @@ namespace Project_FastFood.Pages
         {
             var columns = Math.Ceiling(ActualWidth / 1000);
             ((ItemsWrapGrid)CategoryMenuList.ItemsPanelRoot).ItemWidth = e.NewSize.Width / columns;
+        }
+
+        private void OrderToDatabase(object sender, RoutedEventArgs e)
+        {
+            var item = (sender as FrameworkElement).Tag as Food;
+            CategoryMenuList.SelectedItem = item;
+            Food foodSelected = CategoryMenuList.SelectedItem as Food;
+            CartModel cartModel = new CartModel();
+            // Day Food vao trong Cart Item va mac dinh qty = 1
+            CartItem cartItem = new CartItem(foodSelected.id, foodSelected.name, foodSelected.image, foodSelected.price, 1);
+            TestButtonSubmit.Text = cartModel.AddToCart(cartItem).ToString();
         }
     }
 }

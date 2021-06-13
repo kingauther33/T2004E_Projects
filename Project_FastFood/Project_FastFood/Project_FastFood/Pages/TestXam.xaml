@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <!--<Page.Resources>
+    <Page.Resources>
         <models:Test x:Key="person"/>
     </Page.Resources>
 
@@ -19,10 +19,10 @@
             <TextBox Text="{Binding Name, Mode=TwoWay}"/>
             <TextBox Text="{Binding LastName, Mode=TwoWay}"/>
             <TextBlock Text="{Binding FullName}" Foreground="Black"/>
-            <TextBox Text="{Binding }"/>
+            <TextBox Text="{Binding}"/>
         </StackPanel>
-    </Grid>-->
-    <Grid>
+    </Grid>
+    <!--<Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -32,7 +32,7 @@
                 <DataTemplate x:DataType="models:Test">
                     <StackPanel Orientation="Horizontal">
                         <TextBox Text="{Binding Fname, Mode=TwoWay}" FontSize="30" Foreground="Blue"/>
-                        <!--<Button Width="100" Content="{Binding Fname}" Tag="{Binding}" Click="Button_Click_1"/>-->
+                        --><!--<Button Width="100" Content="{Binding Fname}" Tag="{Binding}" Click="Button_Click_1"/>--><!--
                         <Button Width="100"  
                                 Content="{Binding Lname}" Tag="{Binding}" Click="Button_Click_2" />
                     </StackPanel>
@@ -40,5 +40,5 @@
             </ListView.ItemTemplate>
         </ListView>
         <TextBlock Grid.Row="1" x:Name="DogShit" FontSize="40" Width="100" Height="100"/>
-    </Grid>
+    </Grid>-->
 </Page>

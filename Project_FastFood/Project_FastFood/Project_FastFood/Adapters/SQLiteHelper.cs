@@ -11,7 +11,7 @@ namespace Project_FastFood.Adapters
 {
     class SQLiteHelper
     {
-        private readonly string dbName = "t2004e.db";
+        private readonly string dbName = "database.db";
 
         private static SQLiteHelper sQLiteHelper;
 

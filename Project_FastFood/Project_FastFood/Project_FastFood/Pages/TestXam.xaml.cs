@@ -31,10 +31,10 @@ namespace Project_FastFood.Pages
         {
             this.InitializeComponent();
             List = new ObservableCollection<Test>();
-            List.Add(new Test("An", "Dinh"));
-            List.Add(new Test("Dung", "Dinh"));
-            List.Add(new Test("Tran", "Dinh"));
-            myListView.ItemsSource = List;
+            //List.Add(new Test("An", "Dinh"));
+            //List.Add(new Test("Dung", "Dinh"));
+            //List.Add(new Test("Tran", "Dinh"));
+            //myListView.ItemsSource = List;
 
         }
 
@@ -47,13 +47,13 @@ namespace Project_FastFood.Pages
         //    DogShit.Text = itemTest.Fname;
         //}
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            var item = (sender as FrameworkElement).Tag as Test;
-            //var list = (DataContext as TestItemViewDataContext).List;
-            myListView.SelectedItem = item;
-            Test itemTest = myListView.SelectedItem as Test;
-            DogShit.Text = itemTest.Fname;
-        }
+        //private void Button_Click_2(object sender, RoutedEventArgs e)
+        //{
+        //    var item = (sender as FrameworkElement).Tag as Test;
+        //    //var list = (DataContext as TestItemViewDataContext).List;
+        //    myListView.SelectedItem = item;
+        //    Test itemTest = myListView.SelectedItem as Test;
+        //    DogShit.Text = itemTest.Fname;
+        //}
     }
 }
