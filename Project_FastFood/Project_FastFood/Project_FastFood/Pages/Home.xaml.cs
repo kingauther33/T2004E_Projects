@@ -29,20 +29,7 @@ namespace Project_FastFood.Pages
     {
         public Home()
         {
-            this.InitializeComponent();
-            GetHomeMenu();
-            
-        }
-
-        public async void GetHomeMenu()
-        {
-            HomeMenuService service = new HomeMenuService();
-            HomeMenuData menu = await service.GetHomeMenu();
-            if (menu != null)
-            {
-                homeMenuItems.ItemsSource = menu.data;
-            }
-            
+            this.InitializeComponent();  
         }
     }
 }

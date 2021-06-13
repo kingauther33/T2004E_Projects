@@ -24,6 +24,15 @@ namespace Project_FastFood.Models
         public string description { get; set; }
 
         public int price { get; set; }
+
+        public Food(int id, string name, string image, string description, int price)
+        {
+            this.id = id;
+            this.name = name;
+            this.image = image;
+            this.description = description;
+            this.price = price;
+        }
     }
 
     public class CategoryData

@@ -32,7 +32,7 @@ namespace Project_FastFood.Pages
         public Collection()
         {
             this.InitializeComponent();
-            ObservableCollection<Food> dataList = new ObservableCollection<Food>();
+            //ObservableCollection<Food> dataList = new ObservableCollection<Food>();
 
             GetCategoryMenu();
         }
