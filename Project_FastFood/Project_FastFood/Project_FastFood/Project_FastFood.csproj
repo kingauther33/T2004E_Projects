@@ -129,6 +129,7 @@
     <Compile Include="Models\CreateOrder.cs" />
     <Compile Include="Models\HomeMenu.cs" />
     <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\Test.cs" />
     <Compile Include="Pages\Cart.xaml.cs">
       <DependentUpon>Cart.xaml</DependentUpon>
     </Compile>
@@ -155,6 +156,9 @@
     </Compile>
     <Compile Include="Pages\Take_Away.xaml.cs">
       <DependentUpon>Take_Away.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TestXam.xaml.cs">
+      <DependentUpon>TestXam.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Adapters\Adapter.cs" />
@@ -241,6 +245,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Take_Away.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TestXam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

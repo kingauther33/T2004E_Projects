@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Project_FastFood.Pages.TestXam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project_FastFood.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Project_FastFood.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--<Page.Resources>
+        <models:Test x:Key="person"/>
+    </Page.Resources>
+
+    <Grid DataContext="{Binding Source={StaticResource person}}">
+        <StackPanel VerticalAlignment="Center" 
+                    HorizontalAlignment="Center">
+            <TextBox Text="{Binding Name, Mode=TwoWay}"/>
+            <TextBox Text="{Binding LastName, Mode=TwoWay}"/>
+            <TextBlock Text="{Binding FullName}" Foreground="Black"/>
+            <TextBox Text="{Binding }"/>
+        </StackPanel>
+    </Grid>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="myListView" ItemsSource="{Binding List}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Test">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox Text="{Binding Fname, Mode=TwoWay}" FontSize="30" Foreground="Blue"/>
+                        <!--<Button Width="100" Content="{Binding Fname}" Tag="{Binding}" Click="Button_Click_1"/>-->
+                        <Button Width="100"  
+                                Content="{Binding Lname}" Tag="{Binding}" Click="Button_Click_2" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock Grid.Row="1" x:Name="DogShit" FontSize="40" Width="100" Height="100"/>
+    </Grid>
+</Page>

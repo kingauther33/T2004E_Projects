@@ -38,7 +38,7 @@
             <TextBlock VerticalAlignment="Center" Grid.Column="2" Margin="60,0,0,0" Text="Description" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Text="Image" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" Margin="25,0,120,0" TextWrapping="Wrap" />
         </Grid>
-        <ListView Margin="100,65,0,10" x:Name="CategoryMenuList" Grid.Row="2">
+        <ListView Margin="50,65,0,10" x:Name="CategoryMenuList" Grid.Row="2">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"/>

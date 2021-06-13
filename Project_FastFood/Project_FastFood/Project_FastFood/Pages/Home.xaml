@@ -9,70 +9,24 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Margin="0" HorizontalAlignment="Stretch" Background="LavenderBlush">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid Margin="20" Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <TextBlock VerticalAlignment="Center" Grid.Column="0" Margin="20,0,0,0" Text="Name" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
-            <TextBlock VerticalAlignment="Center" Grid.Column="1" Margin="20,0,0,0" Text="Price" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
-            <TextBlock VerticalAlignment="Center" Grid.Column="2" Margin="20,0,0,0" Text="Description" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Text="Image" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
-        </Grid>
-        <!--<TextBlock Text="Only" FontSize="46" FontWeight="SemiBold" Foreground="Orange" FontFamily="Century Gothic" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <RelativePanel Margin="100,200,0,0" Grid.Column="0">
+            <TextBlock Text="Only" FontSize="46" FontWeight="SemiBold" Foreground="Orange" FontFamily="Century Gothic" />
             <TextBlock x:Name="bigMoney" Text="$19" FontSize="150" Margin="50,50,0,0" Foreground="Orange" FontWeight="Bold" FontFamily="Elephant" TextWrapping="Wrap" />
             <TextBlock x:Name="cheeseBurger"  Text="Cheese Burger" FontSize="60" FontFamily="Century Gothic" FontWeight="Bold" Margin="50,0,0,0" RelativePanel.Below="bigMoney" TextWrapping="Wrap" />
             <TextBlock x:Name="onionTomato"  Text="With Onions and tomato and ketchup" FontSize="28" FontFamily="Century Gothic" Margin="50,20,0,0" RelativePanel.Below="cheeseBurger" TextWrapping="Wrap" />
             <TextBlock x:Name="loremThing"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales ultrices tempor. Proin sagittis neque ex, vitae ullamcorper quam interdum vitae. Aenean ut leo vulputate, egestas nulla in, faucibus est. Nam suscipit justo id lacus luctus porttitor. Donec auctor libero a enim porta auctor." FontSize="24" FontFamily="Century Gothic" Margin="50,20,0,0" RelativePanel.Below="onionTomato" TextWrapping="Wrap" />
-            <Button Content="Order Now" RelativePanel.Below="loremThing" Margin="50,50,0,0" Width="400" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="DarkGray" Background="Khaki"  BorderThickness="1" />-->
-        <ListView Margin="10" x:Name="homeMenuItems" Grid.Row="1">
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
-                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
-                </Style>
-            </ListView.ItemContainerStyle>
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="models:HomeMenuItem">
-                    <ListViewItem>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock VerticalAlignment="Center" Grid.Column="0" x:Name="nameItem" Margin="20,0,0,0" Text="{x:Bind name}" FontFamily="Noto Sans" FontSize="20" TextWrapping="Wrap" />
-                            <TextBlock VerticalAlignment="Center" Grid.Column="1" x:Name="priceItem"  Margin="20,0,0,0" Text="{x:Bind price}" FontFamily="Noto Sans" FontSize="20" TextWrapping="Wrap" />
-                            <TextBlock VerticalAlignment="Center" Grid.Column="2" x:Name="descriptionItem"  Margin="20,0,0,0" Text="{x:Bind description}" FontFamily="Noto Sans" FontSize="20" TextWrapping="Wrap" />
-                            <Image VerticalAlignment="Center" Grid.Column="3" Source="{x:Bind image}" Margin="0,0,0,0" Width="100" Height="100" />
-                        </Grid>
-                    </ListViewItem>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <!--<Grid Margin="10,20">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <TextBlock VerticalAlignment="Center" Grid.Column="0" x:Name="nameItem" Margin="20,0,0,0" Text="Hello" FontFamily="Noto Sans" FontSize="16" TextWrapping="Wrap" />
-            <TextBlock VerticalAlignment="Center" Grid.Column="1" x:Name="priceItem"  Margin="20,20,0,0" Text="Yes" FontFamily="Noto Sans" FontSize="16" TextWrapping="Wrap" />
-            <TextBlock VerticalAlignment="Center" Grid.Column="2" x:Name="descriptionItem"  Margin="20,0,0,0" Text="123123" FontFamily="Noto Sans" FontSize="16" TextWrapping="Wrap" />
-            <Image VerticalAlignment="Center" Grid.Column="3" RelativePanel.Below="priceItem" Source="" Margin="10,20" Width="100" Height="100" />
-        </Grid>-->
-        
-    </Grid>
-    <!--<RelativePanel Margin="50" Grid.Column="1">
+            <Button Content="Order Now" RelativePanel.Below="loremThing" Margin="50,50,0,0" Width="400" Height="50" FontSize="28" FontWeight="SemiBold" Foreground="DarkGray" Background="Khaki"  BorderThickness="1" />
+        </RelativePanel>
+        <RelativePanel Margin="50,100,50,50" Grid.Column="1" Grid.Row="1">
             <Image Margin="0,200,0,0" Source="/Assets/Hamburger.png" />
-        </RelativePanel>-->
+        </RelativePanel>
+    </Grid>
+    
     
     
 </Page>
