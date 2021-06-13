@@ -44,17 +44,10 @@
             --><!--<TextBlock VerticalAlignment="Center" Grid.Column="0" Margin="60,0,0,0" Text="Name" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
             <TextBlock VerticalAlignment="Center" Grid.Column="1" Margin="120,0,0,0" Text="Price" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
             <TextBlock VerticalAlignment="Center" Grid.Column="2" Margin="60,0,0,0" Text="Description" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" TextWrapping="Wrap" />
-<<<<<<< HEAD
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Text="Image" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" Margin="25,0,120,0" TextWrapping="Wrap" />--><!--
         </Grid>-->
         <GridView IsSwipeEnabled="False" Margin="50,65,0,10" x:Name="CategoryMenuList" Grid.Row="2" SizeChanged="onGridViewSizeChanged">
             <GridView.ItemContainerStyle>
-=======
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Text="Image" FontWeight="SemiBold" FontFamily="Noto Sans" FontSize="26" Margin="25,0,120,0" TextWrapping="Wrap" />
-        </Grid>
-        <ListView Margin="50,65,0,10" x:Name="CategoryMenuList" Grid.Row="2">
-            <ListView.ItemContainerStyle>
->>>>>>> fae88e1fbf372345faf55ec96abb845e51726a8e
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
                     <Setter Property="VerticalContentAlignment" Value="Stretch"/>
