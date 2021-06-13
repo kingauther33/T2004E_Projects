@@ -42,10 +42,10 @@ namespace Project_FastFood.Models
             if (SQLiteResult.ROW == statementCheckId.Step())
             {
                 // Update  qty + 1 
-                string sql_updateCartChecked = "update Cart set qty = ? where id = ?";
+                string sql_updateCartChecked = "update Cart set qty = 14 where id = 23";
                 var statementUpdateChecked = sQLiteConnection.Prepare(sql_updateCartChecked); // them so luong
-                statementUpdateChecked.Bind(1, i + 1);
-                statementUpdateChecked.Bind(2, item.id);
+                //statementUpdateChecked.Bind(1, i + 1);
+                //statementUpdateChecked.Bind(2, item.id);
                 var resultUpdate = statementUpdateChecked.Step();
                 return resultUpdate == SQLiteResult.DONE;
             } else
